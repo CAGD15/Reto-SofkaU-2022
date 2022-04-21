@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript" src="/js/DataQuestions.js"></script>
+  <script type="text/javascript" src="/js/App.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Quiz Reto Sofka</title>
+</head>
+
+<body onload="questions()">
+
+  <div class="quiz">
+
+    <img src="../img/sofka.png" alt="" srcset="">
+    <h4>Score:</h4>
+    <!-- Puntaje actual -->
+    <h1 id="points">
+
+    </h1>
+    <!--Pregunta...-->
+    <h2 id="question">
+
+    </h2>
+    <hr>
+    <div class="answer-form">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault0">
+      <label class="form-check-label" for="flexRadioDefault0">
+        <!-- Respuesta 1 -->
+      </label>
+    </div>
+    <div class="answer-form">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        <!-- Respuesta 2 -->
+      </label>
+    </div>
+    <div class="answer-form">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+      <label class="form-check-label" for="flexRadioDefault2">
+        <!-- Respuesta 3 -->
+      </label>
+    </div>
+    <div class="answer-form">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+      <label class="form-check-label" for="flexRadioDefault3">
+        <!-- Respuesta 4 -->
+      </label>
+    </div>
+    <hr>
+    <!--Dificulta de la pregunta y los puntos A obtener...-->
+    <p id="round">
+    </p>
+    <br>
+    <br>
+    <a onClick="questions(1)">Siguiente</a>
+    <a onClick="retreat()">Salir</a>
+  </div>
+
+  </div>
+
+  </div>
+</body>
+
+</html>
