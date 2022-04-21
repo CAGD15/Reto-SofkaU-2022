@@ -24,15 +24,25 @@ correo: Cgomezdiaz77@correo.unicordoba.edu.co
 4.El programa cuenta con un index y 4 carpetas
 
 ---css/ Aqui contiene el archivo style.css que contiene los estilos utilizados en la pagina.
+
 ---img/ Contiene la imagen de SofkaU utilizada en el programa
+
 ---js/ que contiene:
+
     -DataQuestions.js: Que son un arreglo de preguntas por nivel de dificultad 5 en total, cada nivel tiene una categoria 
+
        -level1: Entretenimiento
+
        -level2: Cultura General
+
        -level3: Arte
+
        -level4: Deporte
+
        -level5: Programacion
+
     -App.js: Se encuentran todas lan funciones para dibujar y hacer funcionar el Quiz.
+
 
 ---templates/ que contiene dos archivos html 
     -games.html: Donde se dibuja el juego
@@ -46,3 +56,6 @@ correo: Cgomezdiaz77@correo.unicordoba.edu.co
 
 
 5.No se necesita configurar nada, solo lanzar la aplicacion.
+
+
+6. prueba la aplicacion Online en Netlify (https://reto-sofka-u-2022.netlify.app)
